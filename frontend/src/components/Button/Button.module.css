@@ -1,0 +1,42 @@
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.primary:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.outline {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.outline:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.danger {
+    background-color: var(--danger);
+    color: white;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
